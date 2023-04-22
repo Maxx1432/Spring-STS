@@ -1,0 +1,13 @@
+package com.maxx.cars;
+
+import com.maxx.intefaces.Car;
+
+public class Swift implements Car {
+
+	@Override
+	public String specs() {
+		// TODO Auto-generated method stub
+		return "Sidan from Suzuki";
+	}
+
+}

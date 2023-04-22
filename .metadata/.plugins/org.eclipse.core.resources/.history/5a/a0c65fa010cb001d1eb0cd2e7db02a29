@@ -1,0 +1,29 @@
+package com.maxx.cars;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.maxx.intefaces.Car;
+@Component
+public class Swift implements Car {
+	@Autowired
+	Engine engine;
+	
+	public void setEngine(Engine engine) {
+		engine.type="New VXI Engine";
+		this.engine = engine;
+	}
+	
+	public Swift(Engine engine) {
+		engine.type="New VXI Cons Engine";
+		this.engine = engine;
+	}
+
+	public String specs() {
+		String specs = "Sidan from Suzuki with engine type as "+engine.type;
+		return specs;
+	}
+
+
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;name&apos; in &apos;com.maxx.MainController.displayName(...)&apos; to &apos;names&apos;&#x0D;&#x0A;- Original project: &apos;L6-Model and View and ForEach on Data&apos;&#x0D;&#x0A;- Original element: &apos;com.maxx.MainController.displayName(String).name&apos;&#x0D;&#x0A;- Renamed element: &apos;name&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;name&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.maxx{MainController.java[MainController~displayName~QString;@name!843!880!856!859!QList\&lt;QString;&gt;;!0!false" name="names" references="true" stamp="1679895620722" version="1.0"/>
+</session>

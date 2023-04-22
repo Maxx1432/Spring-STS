@@ -1,0 +1,9 @@
+package com.maxx.intefaces;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Engine {
+	public String type();
+
+}

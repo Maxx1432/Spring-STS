@@ -1,0 +1,13 @@
+package com.maxx.specs;
+
+import com.maxx.intefaces.Engine;
+
+public class VXI implements Engine {
+
+	@Override
+	public String type() {
+		// TODO Auto-generated method stub
+		return "VXI Engine";
+	}
+
+}
